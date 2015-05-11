@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Circles_Near_You"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Circles Near You"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#848484"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="40dp"
+        android:background="#c0c0c0" />
+
+    <ImageView
+        android:id="@+id/UOttawa_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/Circles_Near_You"
+        android:background="#000000"
+        android:padding="1dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/u" />
+
+    <TextView
+        android:id="@+id/UOttawa_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/UO_NO"
+        android:layout_alignTop="@+id/UOttawa_image"
+        android:gravity="center"
+        android:text="UOttawa"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/MEMBERS_UO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UO_NO"
+        android:layout_marginLeft="13dp"
+        android:layout_toRightOf="@+id/UOttawa_image"
+        android:gravity="right|center_vertical"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="MEMBERS"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#848484"
+        android:textSize="21sp" />
+
+    <ImageButton
+        android:id="@+id/UO_BUT"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/UOttawa_image"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:contentDescription="Join"
+        android:scaleType="fitXY"
+        android:src="@drawable/join_button" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="180dp"
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/AlgonquinC_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/MEMBERS_UO"
+        android:layout_alignTop="@+id/AlgonquinC_image"
+        android:layout_marginTop="20dp"
+        android:text="AlgonquinC"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/AC_NO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/MEMBERS_AC"
+        android:layout_alignLeft="@+id/CarletonU_text"
+        android:gravity="center"
+        android:text="15,000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/AC_BUT"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/AlgonquinC_image"
+        android:layout_alignLeft="@+id/UO_BUT"
+        android:layout_marginBottom="28dp"
+        android:padding="0dp"
+        android:paddingBottom="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/leave_button" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="280dp"
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/CarletonU_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/MEMBERS_AC"
+        android:layout_alignTop="@+id/CarletonU_image"
+        android:gravity="center"
+        android:text="CarletonU"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="21sp" />
+
+    <ImageButton
+        android:id="@+id/CU_BUT"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/AC_BUT"
+        android:layout_alignTop="@+id/CarletonU_image"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:contentDescription="Join_Leave"
+        android:padding="0dp"
+        android:paddingBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/join_button" />
+
+    <TextView
+        android:id="@+id/UO_NO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/UO_BUT"
+        android:layout_alignLeft="@+id/AC_NO"
+        android:gravity="center"
+        android:text="15,000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/CU_NO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/CU_BUT"
+        android:layout_alignRight="@+id/UOttawa_text"
+        android:gravity="center"
+        android:text="15,000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/MEMBERS_CU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CarletonU_text"
+        android:layout_below="@+id/CU_NO"
+        android:gravity="right|center_vertical"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="MEMBERS"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#848484"
+        android:textSize="21sp" />
+
+    <ImageView
+        android:id="@+id/CarletonU_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/view3"
+        android:layout_marginTop="21dp"
+        android:layout_toLeftOf="@+id/MEMBERS_UO"
+        android:background="#ffffff"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/carletonlogo" />
+
+    <ImageView
+        android:id="@+id/AlgonquinC_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/CarletonU_image"
+        android:layout_below="@+id/MEMBERS_UO"
+        android:layout_toLeftOf="@+id/MEMBERS_UO"
+        android:background="#ffffff"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/algonquinlogo" />
+
+    <TextView
+        android:id="@+id/MEMBERS_AC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/AlgonquinC_text"
+        android:layout_below="@+id/AlgonquinC_text"
+        android:gravity="right|center_vertical"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="MEMBERS"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#848484"
+        android:textSize="21sp" />
+
+</RelativeLayout>

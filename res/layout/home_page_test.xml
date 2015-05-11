@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+     
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:orientation="vertical" 
+    android:background="#e6e6e6" >
+    
+            <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="16dp"
+            android:background="#ffffff"
+            android:padding="0dp" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="1h ago" />
+
+            <ImageButton
+                android:id="@+id/imagebutton"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_below="@+id/textView4"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:adjustViewBounds="false"
+                android:background="#ffffff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/notification_link" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@+id/textView4"
+                android:text="To the cute guy, Hamid, who is always at Morisset library 6h floor. You are super cute. I should come and ask you for your number. -From the blonde girl. "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/TextView04"
+                android:layout_alignBottom="@+id/TextView04"
+                android:layout_alignRight="@+id/imagebutton"
+                android:text="4"
+                android:textSize="17sp" />
+
+            <ToggleButton
+                android:id="@+id/ImageButton01"
+                android:layout_width="40dp"
+                android:layout_height="32dp"
+                android:layout_alignTop="@+id/textView6"
+                android:layout_toLeftOf="@+id/TextView04"
+                android:adjustViewBounds="false"
+                android:background="#ffffff"
+                android:textOn=""
+                android:textOff=""
+                android:scaleType="fitCenter"
+                android:button="@drawable/like" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ImageButton01"
+                android:layout_toLeftOf="@+id/ImageButton02"
+                android:text="102"
+                android:textSize="17sp" />
+
+            <ImageButton
+                android:id="@+id/ImageButton02"
+                android:layout_width="40dp"
+                android:layout_height="32dp"
+                android:layout_alignBottom="@+id/TextView06"
+                android:layout_toLeftOf="@+id/TextView06"
+                android:adjustViewBounds="false"
+                android:background="#ffffff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/comment_button_green" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_below="@+id/textView5"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/uottawalogo" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView1"
+                android:layout_marginTop="14dp"
+                android:layout_toRightOf="@+id/imageView1"
+                android:text="@string/University1" />
+
+        </RelativeLayout>
+    
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="200dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="226dp"
+          android:background="#ffffff"
+          android:padding="0dp" >
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="1h ago" />
+
+            <ImageButton
+                android:id="@+id/imageButton200"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_below="@+id/textView40"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:adjustViewBounds="false"
+                android:background="#ffffff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/notification_link" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@+id/textView40"
+                android:text="University is where you have absolutely nothing to do for a month and then all of the sudden you have 4 exams and 2 papers due in one week"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="17sp"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView50"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/imageView10"
+                android:text="@string/University2" />
+
+            <TextView
+                android:id="@+id/TextView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/TextView40"
+                android:layout_alignBottom="@+id/TextView40"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="10dp"
+                android:text="5"
+                android:textSize="17sp" />
+
+ <ImageView
+     android:id="@+id/imageView10"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/textView50"
+     android:layout_below="@+id/textView50"
+     android:adjustViewBounds="true"
+     android:maxHeight="40dp"
+     android:maxWidth="40dp"
+     android:scaleType="fitXY"
+     android:src="@drawable/carletonlogo" />
+
+ <ImageButton
+     android:id="@+id/ImageButton20"
+     android:layout_width="40dp"
+     android:layout_height="32dp"
+     android:layout_alignTop="@+id/textView60"
+     android:layout_toLeftOf="@+id/TextView60"
+     android:adjustViewBounds="false"
+     android:background="#ffffff"
+     android:scaleType="fitCenter"
+     android:src="@drawable/comment_green" />
+
+ <TextView
+     android:id="@+id/TextView40"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBottom="@+id/ImageButton10"
+     android:layout_toLeftOf="@+id/ImageButton20"
+     android:text="@string/like_number"
+     android:textSize="17sp" />
+
+ <ToggleButton
+     android:id="@+id/ImageButton10"
+     android:layout_width="40dp"
+     android:layout_height="32dp"
+     android:layout_alignTop="@+id/ImageButton20"
+     android:layout_toLeftOf="@+id/TextView40"
+     android:adjustViewBounds="false"
+     android:background="#ffffff"
+     android:textOn=""
+     android:textOff=""
+     android:scaleType="fitCenter"
+     android:button="@drawable/like" />
+           
+        </RelativeLayout>
+
+      <ImageButton
+          android:id="@+id/imageButton1"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:adjustViewBounds="false"
+          android:background="#e6e6e6"
+          android:baselineAlignBottom="true"
+          android:maxHeight="30dp"
+          android:maxWidth="30dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/post_button" />
+
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <Button
+        android:id="@+id/sonbutton"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vonbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Sound on Notification" />
+
+    <Button
+        android:id="@+id/vonbutton"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sonbutton"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:text="Vibrate on Notification" />
+
+    <Button
+        android:id="@+id/lgbutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/csbutton"
+        android:layout_alignBottom="@+id/csbutton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="Log Out" />
+
+    <Button
+        android:id="@+id/csbutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sonbutton"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:text="Contact Us" />
+
+    <Button
+        android:id="@+id/dmabutton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Delete My Account" />
+
+    <CheckBox
+        android:id="@+id/voncheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/vonbutton"
+        android:layout_alignBottom="@+id/vonbutton"
+        android:layout_alignRight="@+id/dmabutton" />
+
+    <CheckBox
+        android:id="@+id/soncheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sonbutton"
+        android:layout_alignBottom="@+id/sonbutton"
+        android:layout_alignLeft="@+id/voncheckBox" />
+    
+    
+
+</RelativeLayout>

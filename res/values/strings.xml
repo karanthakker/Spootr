@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_section1">HOME</string>
+    <string name="title_section4">SETTINGS</string>
+    <string name="title_section5">INVITE</string>
+    <string name="title_section2">PROFILE</string>
+    <string name="title_section3">CIRCLE</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name"></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_post">fujkdnvkjnckjvnjkkxnczvkl</string>
+    <string name="like_number">25</string>
+    <string name="comment_number">21</string>
+    <string name="University1">uOttawa</string>
+    <string name="University2">CarletonU</string>
+    <string name="University3">AlgoquinC</string>
+    <string name="like_button_press_number">25 people like this</string>
+    <string name="USERNAME">USERNAME</string>
+    <string name="Comment_bar">Write your comment</string>
+    <string name="What_Have_You_Spotted">What have you spotted?</string>
+    <string name="spootrword">spootrword</string>
+    <!--
+    <string-array name="cities_array">
+        <item>Ottawa,ON</item>
+        <item>Montreal,QC</item>
+        <item>Totonto,ON</item>
+        <item>Vancouver,BC</item>
+        <item>Windsor,ON</item>
+        <item>Hamilton,ON</item>
+        <item>Peterborough,ON</item>
+        <item>Calgary,AB</item>
+    </string-array>
+    -->
+
+    <string name="universityName">university</string>
+    <string name="Membercount">125</string>
+    <string name="Member">Members</string>
+    <string name="join">Join</string>
+
+    <string-array name="State">
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundlandand Labrador</item>
+        <item>Northwest Territories</item>
+        <item>Nova Scotia</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>QuÃ©bec</item>
+        <item>Saskatchewan</item>
+        <item>Yukon Territory</item>
+    </string-array>
+    
+    <string-array name="navigation_list">
+        <item>HOME</item>
+        <item>PROFILE</item>
+        <item>CIRCLES</item>
+        <item>SETTINGS</item>
+        <item>INVITE</item>
+    </string-array>
+
+</resources>

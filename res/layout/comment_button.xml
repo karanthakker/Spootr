@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f2f2f2" >
+
+    <TextView
+        android:id="@+id/time_of_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/comment"
+        android:layout_alignTop="@+id/textView1"
+        android:text="1h ago" />
+
+   <View
+       android:id="@+id/view2"
+       android:layout_width="fill_parent"
+       android:layout_height="1dp"
+       android:layout_marginBottom="50dp"
+       android:layout_marginTop="460dp"
+       android:background="#c0c0c0" />
+
+   <ImageButton
+       android:id="@+id/imageButton1"
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_alignRight="@+id/comment"
+       android:layout_marginRight="10dp"
+       android:background="#f2f2f2"
+       android:layout_marginBottom="10dp"
+       android:scaleType="fitXY"
+       android:src="@drawable/send_button_grey" />
+
+    <TextView
+        android:id="@+id/write_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/Comment_bar"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textColor="#a4a4a4" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/TextView04"
+        android:text="1h ago" />
+
+    <View
+        android:id="@+id/View01"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/profile_picture"
+        android:layout_marginTop="14dp"
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/View01"
+        android:layout_alignLeft="@+id/textView1"
+        android:text="How did she find out his name? Stalkers these days, damn!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/profile_picture2"
+        android:layout_alignLeft="@+id/TextView04"
+        android:layout_alignParentRight="true"
+        android:text="Not me, but you should! He seems cool with that name!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextView03"
+        android:layout_alignLeft="@+id/comment"
+        android:text="@string/USERNAME"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/press_like"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/write_comment"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:background="#f2f2f2"
+        android:scaleType="fitXY"
+        android:src="@drawable/like_button_red" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/No_of_likes"
+        android:layout_marginTop="20dp"
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/comment"
+        android:layout_toRightOf="@+id/profile_picture"
+        android:text="@string/USERNAME"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/No_of_likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/press_like"
+        android:layout_centerHorizontal="true"
+        android:text="@string/like_button_press_number"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/press_like"
+        android:layout_below="@+id/view1"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:scaleType="fitXY"
+        android:src="@drawable/profile_button" />
+
+    <ImageView
+        android:id="@+id/profile_picture2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/profile_picture"
+        android:layout_below="@+id/View01"
+        android:layout_marginTop="14dp"
+        android:background="#ffffff"
+        android:scaleType="fitXY"
+        android:src="@drawable/profile_button" />
+
+     <TextView
+         android:id="@+id/TextView07"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/TextView06"
+         android:layout_alignBottom="@+id/TextView06"
+         android:layout_alignParentRight="true"
+         android:text="1h ago" />
+
+     <View
+         android:id="@+id/View02"
+         android:layout_width="fill_parent"
+         android:layout_height="1dp"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/TextView03"
+         android:layout_marginTop="12dp"
+         android:background="#c0c0c0" />
+
+     <TextView
+         android:id="@+id/TextView06"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/TextView03"
+         android:layout_below="@+id/View02"
+         android:text="@string/USERNAME"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textSize="15sp"
+         android:textStyle="bold" />
+
+     <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_alignLeft="@+id/profile_picture2"
+         android:layout_below="@+id/TextView06"
+         android:background="#ffffff"
+         android:scaleType="fitXY"
+         android:src="@drawable/profile_button" />
+
+     
+
+     <TextView
+         android:id="@+id/TextView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/ImageView01"
+         android:layout_alignParentRight="true"
+         android:layout_toRightOf="@+id/ImageView01"
+         android:text="A girl wouldn&apos;t call herself &apos;the blond girl&apos; he wrote it"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textSize="14sp" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gradient xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item  android:startColor="@color/list_background"
+      android:endColor="@color/list_background"
+ />
+</gradient>
